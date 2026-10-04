@@ -12,7 +12,7 @@ const bullets = [
     short: "Quick puncture fixes",
   },
   {
-    bg: "bg-green-600",
+    bg: "bg-orange-500",
     icon: <span className="text-lg">⚡</span>,
     text: "Reliable flat tyre repairs",
     short: "Reliable flat tyre repairs",
