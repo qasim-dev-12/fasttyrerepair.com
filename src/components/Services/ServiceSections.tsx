@@ -143,7 +143,7 @@ export const BorderList = ({ items }: { items: string[] }) => (
         key={item}
         className="flex items-start gap-3 rounded-lg border-l-4 border-primary bg-white p-4 text-base text-body-color shadow-one transition-all duration-300 hover:translate-x-1 hover:shadow-md dark:bg-dark dark:shadow-three"
       >
-        <span className="icon-pulse mt-1 text-primary">✓</span>
+        <span className="icon-pulse inline-block mt-1 text-primary">✓</span>
         {item}
       </div>
     ))}
