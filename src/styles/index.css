@@ -68,7 +68,6 @@ layer(base);
 
 /* Always-on icon motion (services pages) — kept subtle so it doesn't distract */
 .icon-float {
-  display: inline-block;
   animation: float 3s ease-in-out infinite;
   will-change: transform;
 }
