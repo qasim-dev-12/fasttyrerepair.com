@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   description: "Warranty terms for tyres fitted by Fix My Tyre.",
 };
 
-const PHONE = "+971589462180";
-const WHATSAPP = "https://wa.me/971589462180";
+const PHONE = "+971543170355";
+const WHATSAPP = "https://wa.me/971543170355";
 
 const warrantyLengths = [{ value: "2", label: "Months Warranty on Every New Tyre" }];
 
