@@ -24,9 +24,9 @@ export default function RootLayout({
       <head>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18223576133"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
-        <Script id="gtag-init" strategy="afterInteractive">
+        <Script id="gtag-init" strategy="beforeInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -34,7 +34,7 @@ export default function RootLayout({
             gtag('config', 'AW-18223576133');
           `}
         </Script>
-        <Script id="tel-click-conversion" strategy="afterInteractive">
+        <Script id="tel-click-conversion" strategy="beforeInteractive">
           {`
             (function(){
                 document.addEventListener('click', function(e){
@@ -47,7 +47,7 @@ export default function RootLayout({
             })();
           `}
         </Script>
-        <Script id="whatsapp-click-conversion" strategy="afterInteractive">
+        <Script id="whatsapp-click-conversion" strategy="beforeInteractive">
           {`
             document.addEventListener('click', function(e){
               if(e.target.closest('a[href^="https://wa.me/"]')){
@@ -60,9 +60,9 @@ export default function RootLayout({
         </Script>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18333851092"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
-        <Script id="gtag-init-2" strategy="afterInteractive">
+        <Script id="gtag-init-2" strategy="beforeInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -70,7 +70,7 @@ export default function RootLayout({
             gtag('config', 'AW-18333851092');
           `}
         </Script>
-        <Script id="tel-click-conversion-2" strategy="afterInteractive">
+        <Script id="tel-click-conversion-2" strategy="beforeInteractive">
           {`
             (function(){
                 document.addEventListener('click', function(e){
@@ -83,7 +83,7 @@ export default function RootLayout({
             })();
           `}
         </Script>
-        <Script id="whatsapp-click-conversion-2" strategy="afterInteractive">
+        <Script id="whatsapp-click-conversion-2" strategy="beforeInteractive">
           {`
             (function(){
                 document.addEventListener('click', function(e){
@@ -98,9 +98,9 @@ export default function RootLayout({
         </Script>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18420530559"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
-        <Script id="gtag-init-3" strategy="afterInteractive">
+        <Script id="gtag-init-3" strategy="beforeInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -108,7 +108,7 @@ export default function RootLayout({
             gtag('config', 'AW-18420530559');
           `}
         </Script>
-        <Script id="tel-click-conversion-3" strategy="afterInteractive">
+        <Script id="tel-click-conversion-3" strategy="beforeInteractive">
           {`
             (function(){
                 document.addEventListener('click', function(e){
@@ -121,7 +121,7 @@ export default function RootLayout({
             })();
           `}
         </Script>
-        <Script id="whatsapp-click-conversion-3" strategy="afterInteractive">
+        <Script id="whatsapp-click-conversion-3" strategy="beforeInteractive">
           {`
             (function(){
                 document.addEventListener('click', function(e){
