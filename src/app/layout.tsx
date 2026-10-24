@@ -96,6 +96,44 @@ export default function RootLayout({
             })();
           `}
         </Script>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18420530559"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init-3" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18420530559');
+          `}
+        </Script>
+        <Script id="tel-click-conversion-3" strategy="afterInteractive">
+          {`
+            (function(){
+                document.addEventListener('click', function(e){
+                if(e.target.closest('a[href^="tel:"]')){
+                    gtag('event', 'conversion', {'send_to': 'AW-18420530559/kqHoCO6avqcdEP_6y89E'});
+                    CG.conversion();
+                    initCCConvertion();
+                }
+                });
+            })();
+          `}
+        </Script>
+        <Script id="whatsapp-click-conversion-3" strategy="afterInteractive">
+          {`
+            (function(){
+                document.addEventListener('click', function(e){
+                if(e.target.closest('a[href^="https://wa.me/"]')){
+                    gtag('event', 'conversion', {'send_to': 'AW-18420530559/7_RlCJ6mwKcdEP_6y89E'});
+                    CG.conversion();
+                    initCCConvertion();
+                }
+                });
+            })();
+          `}
+        </Script>
       </head>
 
       <body className={`bg-black ${sora.className}`}>
