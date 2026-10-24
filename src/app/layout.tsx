@@ -40,8 +40,6 @@ export default function RootLayout({
                 document.addEventListener('click', function(e){
                 if(e.target.closest('a[href^="tel:"]')){
                     gtag('event', 'conversion', {'send_to': 'AW-18223576133/xuRYCLjQg9IcEMXo1vFD'});
-                    CG.conversion();
-                    initCCConvertion();
                 }
                 });
             })();
@@ -52,8 +50,6 @@ export default function RootLayout({
             document.addEventListener('click', function(e){
               if(e.target.closest('a[href^="https://wa.me/"]')){
                 gtag('event', 'conversion', {'send_to': 'AW-18223576133/IABYCPi-idIcEMXo1vFD'});
-                CG.conversion();
-                initCCConvertion();
               }
             });
           `}
@@ -76,8 +72,6 @@ export default function RootLayout({
                 document.addEventListener('click', function(e){
                 if(e.target.closest('a[href^="tel:"]')){
                     gtag('event', 'conversion', {'send_to': 'AW-18333851092/1XjSCPjyh9kcENS7oaZE'});
-                    CG.conversion();
-                    initCCConvertion();
                 }
                 });
             })();
@@ -89,8 +83,6 @@ export default function RootLayout({
                 document.addEventListener('click', function(e){
                 if(e.target.closest('a[href^="https://wa.me/"]')){
                     gtag('event', 'conversion', {'send_to': 'AW-18333851092/yA1nCOuqreAcENS7oaZE'});
-                    CG.conversion();
-                    initCCConvertion();
                 }
                 });
             })();
@@ -114,8 +106,6 @@ export default function RootLayout({
                 document.addEventListener('click', function(e){
                 if(e.target.closest('a[href^="tel:"]')){
                     gtag('event', 'conversion', {'send_to': 'AW-18420530559/kqHoCO6avqcdEP_6y89E'});
-                    CG.conversion();
-                    initCCConvertion();
                 }
                 });
             })();
@@ -127,8 +117,6 @@ export default function RootLayout({
                 document.addEventListener('click', function(e){
                 if(e.target.closest('a[href^="https://wa.me/"]')){
                     gtag('event', 'conversion', {'send_to': 'AW-18420530559/7_RlCJ6mwKcdEP_6y89E'});
-                    CG.conversion();
-                    initCCConvertion();
                 }
                 });
             })();
